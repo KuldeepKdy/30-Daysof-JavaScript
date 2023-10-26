@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.maindiv {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.musiccontainer{
+    width: 35rem;
+    height: 55rem;
+    background-color: #ffff;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(o, 0, 0, 0.2);
+    padding: 3rem;
+    text-align: center;
+}
+
+.musiccontainer #title{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: #171717;
+    margin: 2rem 0 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgba(o, 0, 0, 0.3)
+}
+
+.musiccontainer #artist{
+    color: #cccaca;
+    text-transform: ;
+}
